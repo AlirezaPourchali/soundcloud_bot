@@ -2,8 +2,9 @@ import time
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
+from sys import argv
 driver = webdriver.Chrome()
-driver.get("https://soundcloud.com/arpjoker-82/likes")
+driver.get(argv[1])
 time.sleep(2)  # Allow 2 seconds for the web page to open
 scroll_pause_time = 1
 screen_height = driver.execute_script("return window.screen.height;")   # height
