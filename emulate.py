@@ -1,5 +1,4 @@
 import time
-import sys
 from selenium import webdriver
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
@@ -19,10 +18,6 @@ while True:
     if (screen_height) * i > scroll_height:
         html = driver.page_source
         time.sleep(2)
-        #with open('links', 'w') as f:
-        #    sys.stdout = f
-        #    print(html)
-        #    sys.stdout = "original_stdout" 
         print(html)
         break 
 
