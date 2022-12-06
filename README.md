@@ -1,5 +1,5 @@
 # soundcloud    
-emulating chrome to get the full source for scraping 
+emulating chrome to get the full source for scraping     
 run the script to get my favourite musics links      
 gonna improve it when i have time      
 ```
