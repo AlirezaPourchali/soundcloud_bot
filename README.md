@@ -12,7 +12,6 @@ telegram bot for download in python & javascript
 emulating chromium and getting the liked songs url of a user :         
 ```
 $ ./python/bash.sh <link>        
-
 ```
 
 the rest is for telegram bot, we did it in python and javascript(soroush-habibi)       
