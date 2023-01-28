@@ -1,6 +1,6 @@
 # soundcloud    
 emulating chromium to get the full source for scraping       
-telegram bot for download in python & javascript      
+telegram bot for downloading songs in python & javascript      
 
 # requirements      
 
